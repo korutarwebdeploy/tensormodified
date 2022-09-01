@@ -78,7 +78,7 @@ class ReferenceResolver:
       """,
       flags=re.VERBOSE)
 
-  dicx = {}
+  dicx = []
   def __init__(
       self,
       *,
