@@ -81,6 +81,7 @@ class ReferenceResolver:
   def __init__(
       self,
       *,
+      d,
       duplicate_of: d[str, str],
       is_fragment: d[str, bool],
       py_module_names: Union[list[str], d[str, str]],
