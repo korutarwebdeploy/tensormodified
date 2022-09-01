@@ -81,12 +81,11 @@ class ReferenceResolver:
   def __init__(
       self,
       *,
-      dicx,
-      duplicate_of: dicx[str, str],
-      is_fragment: dicx[str, bool],
-      py_module_names: Union[list[str], dicx[str, str]],
+      duplicate_of: d[str, str],
+      is_fragment: d[str, bool],
+      py_module_names: Union[list[str], d[str, str]],
       link_prefix: Optional[str] = None,
-      physical_path: Optional[dicx[str, str]] = None,
+      physical_path: Optional[d[str, str]] = None,
   ):
     """Initializes a Reference Resolver.
 
