@@ -78,10 +78,10 @@ class ReferenceResolver:
       """,
       flags=re.VERBOSE)
 
-  dicx = []
   def __init__(
       self,
       *,
+      dicx,
       duplicate_of: dicx[str, str],
       is_fragment: dicx[str, bool],
       py_module_names: Union[list[str], dicx[str, str]],
